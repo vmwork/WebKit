@@ -8,6 +8,45 @@
 	<title>WebKit</title>
 </head>
 <body>
-
+<header class="main-header">
+	<div class="main-header__conteinter">
+		<div class="main-header__logo-block">
+		<h1 class="visually-hidden">Сайт WebKit</h1>
+		<a href="#"><img src="img/logo.svg" alt="Logo WebKit"><p class="main-header__logo-text">Web<span>Kit</span></p>
+</a>
+</div>
+<button class="btn main-header__btn-login">Войти</button>
+	</div>
+</header>
+<main>
+	<section class="login">
+		<div class="login-container">
+		<h2 class="login-tetle">Войти</h2>
+		<form action="php.php">
+			<div class="login-form__container">
+				<div>
+			<p>Email</p>
+			<input type="email" name="emailaddress" required >
+		</div> <div>
+			<p>Пароль</p>
+			<input type="password" required>
+			</div>
+			</div>
+			<div class="login__remember-contaniner">
+<div>
+			<input type="checkbox" id="remember-me">
+			<label for="remember-me"> Запомнить меня</label></div>
+			<a href="#">Забыл(а) пароль</a>
+			</div>
+			<div class="login_button-contaniner">
+			<button class="btn btn-login">Войти</button>
+			<div>
+			<p>Нет аккаунта?</p>
+			<a href="#">Зарегестрируйся</a>
+			</div></div>
+		</form>
+		</div>
+	</section>
+</main>
 </body>
 </html>

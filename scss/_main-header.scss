@@ -1,0 +1,42 @@
+.main-header{
+	min-height: 70px;
+	background-color: #CCCCCC;
+}
+.main-header__conteinter{
+	display: flex;
+	justify-content: space-around;
+}
+.main-header__logo-block a{
+display: flex;
+min-height: 70px;
+text-decoration: none;
+color: #ffffff;
+font-size: 28px;
+font-weight: 700;
+}
+.main-header__logo-block a span{
+	font-size: 22px;
+	font-weight: 400;
+}
+.main-header__logo-block img{
+		align-self: center;
+}
+.main-header__logo-block p{
+	margin: 0;
+	align-self: center;
+	margin-left: 15px;
+}
+.btn{
+	align-self: center;
+	width: 130px;
+	height: 50px;
+	background: #2575fa;
+	border: none;
+	border-radius: 5px;
+	color: #ffffff;
+}
+.btn:hover{
+		color: #2575fa;
+		background: #ffffff;
+		border: 1px solid #2575fa;
+}
